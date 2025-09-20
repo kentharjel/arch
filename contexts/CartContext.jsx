@@ -1,4 +1,4 @@
-import { addDoc, collection, deleteDoc, doc, onSnapshot, query, where } from "firebase/firestore";
+import { addDoc, collection, deleteDoc, doc, getDocs, onSnapshot, query, where } from "firebase/firestore";
 import { createContext, useContext, useState } from "react";
 import { db } from "../firebaseConfig";
 
